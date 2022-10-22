@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		3C7B7D802902321000BB1A7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7B7D7F2902321000BB1A7A /* AppDelegate.swift */; };
 		3C7B7D822902321000BB1A7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7B7D812902321000BB1A7A /* SceneDelegate.swift */; };
-		3C7B7D842902321000BB1A7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7B7D832902321000BB1A7A /* ViewController.swift */; };
 		3C7B7D872902321000BB1A7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C7B7D852902321000BB1A7A /* Main.storyboard */; };
 		3C7B7D892902321200BB1A7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C7B7D882902321200BB1A7A /* Assets.xcassets */; };
 		3C7B7D8C2902321200BB1A7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C7B7D8A2902321200BB1A7A /* LaunchScreen.storyboard */; };
+		3C7B7D9429025D5800BB1A7A /* ChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7B7D9329025D5800BB1A7A /* ChooseViewController.swift */; };
+		3C7B7D962902ACDA00BB1A7A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7B7D952902ACDA00BB1A7A /* MainViewController.swift */; };
+		3C7B7D982902AE2400BB1A7A /* TradeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7B7D972902AE2400BB1A7A /* TradeCell.swift */; };
+		3C7B7D9A2902B50700BB1A7A /* Trade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7B7D992902B50700BB1A7A /* Trade.swift */; };
+		3C7B7D9C2902BA1800BB1A7A /* ReusableLable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7B7D9B2902BA1800BB1A7A /* ReusableLable.swift */; };
+		3C7B7D9E2902BABF00BB1A7A /* TradeCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7B7D9D2902BABF00BB1A7A /* TradeCollection.swift */; };
+		4DA933B85BD1D8262E9511CB /* Pods_PhillipsRecruitment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE527810C9564F1E63D4390 /* Pods_PhillipsRecruitment.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1AE527810C9564F1E63D4390 /* Pods_PhillipsRecruitment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhillipsRecruitment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C7B7D7C2902321000BB1A7A /* PhillipsRecruitment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhillipsRecruitment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C7B7D7F2902321000BB1A7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C7B7D812902321000BB1A7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3C7B7D832902321000BB1A7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3C7B7D862902321000BB1A7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C7B7D882902321200BB1A7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C7B7D8B2902321200BB1A7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C7B7D8D2902321200BB1A7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C7B7D9329025D5800BB1A7A /* ChooseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseViewController.swift; sourceTree = "<group>"; };
+		3C7B7D952902ACDA00BB1A7A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		3C7B7D972902AE2400BB1A7A /* TradeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeCell.swift; sourceTree = "<group>"; };
+		3C7B7D992902B50700BB1A7A /* Trade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trade.swift; sourceTree = "<group>"; };
+		3C7B7D9B2902BA1800BB1A7A /* ReusableLable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableLable.swift; sourceTree = "<group>"; };
+		3C7B7D9D2902BABF00BB1A7A /* TradeCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeCollection.swift; sourceTree = "<group>"; };
+		986D558D81EACE67B1E1784C /* Pods-PhillipsRecruitment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhillipsRecruitment.debug.xcconfig"; path = "Target Support Files/Pods-PhillipsRecruitment/Pods-PhillipsRecruitment.debug.xcconfig"; sourceTree = "<group>"; };
+		E72B5984C9B33B063BE71D2F /* Pods-PhillipsRecruitment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhillipsRecruitment.release.xcconfig"; path = "Target Support Files/Pods-PhillipsRecruitment/Pods-PhillipsRecruitment.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DA933B85BD1D8262E9511CB /* Pods_PhillipsRecruitment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +57,8 @@
 			children = (
 				3C7B7D7E2902321000BB1A7A /* PhillipsRecruitment */,
 				3C7B7D7D2902321000BB1A7A /* Products */,
+				41BA806BD43FD6C5FC68E159 /* Pods */,
+				4C33DD9EA671C5FE49CE8230 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +75,35 @@
 			children = (
 				3C7B7D7F2902321000BB1A7A /* AppDelegate.swift */,
 				3C7B7D812902321000BB1A7A /* SceneDelegate.swift */,
-				3C7B7D832902321000BB1A7A /* ViewController.swift */,
 				3C7B7D852902321000BB1A7A /* Main.storyboard */,
 				3C7B7D882902321200BB1A7A /* Assets.xcassets */,
 				3C7B7D8A2902321200BB1A7A /* LaunchScreen.storyboard */,
 				3C7B7D8D2902321200BB1A7A /* Info.plist */,
+				3C7B7D9329025D5800BB1A7A /* ChooseViewController.swift */,
+				3C7B7D952902ACDA00BB1A7A /* MainViewController.swift */,
+				3C7B7D972902AE2400BB1A7A /* TradeCell.swift */,
+				3C7B7D992902B50700BB1A7A /* Trade.swift */,
+				3C7B7D9B2902BA1800BB1A7A /* ReusableLable.swift */,
+				3C7B7D9D2902BABF00BB1A7A /* TradeCollection.swift */,
 			);
 			path = PhillipsRecruitment;
+			sourceTree = "<group>";
+		};
+		41BA806BD43FD6C5FC68E159 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				986D558D81EACE67B1E1784C /* Pods-PhillipsRecruitment.debug.xcconfig */,
+				E72B5984C9B33B063BE71D2F /* Pods-PhillipsRecruitment.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4C33DD9EA671C5FE49CE8230 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AE527810C9564F1E63D4390 /* Pods_PhillipsRecruitment.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C7B7D902902321200BB1A7A /* Build configuration list for PBXNativeTarget "PhillipsRecruitment" */;
 			buildPhases = (
+				F9F8DD934539A77FE093C6B0 /* [CP] Check Pods Manifest.lock */,
 				3C7B7D782902321000BB1A7A /* Sources */,
 				3C7B7D792902321000BB1A7A /* Frameworks */,
 				3C7B7D7A2902321000BB1A7A /* Resources */,
+				814C41C1515181C17075E7A1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +174,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		814C41C1515181C17075E7A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhillipsRecruitment/Pods-PhillipsRecruitment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhillipsRecruitment/Pods-PhillipsRecruitment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PhillipsRecruitment/Pods-PhillipsRecruitment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9F8DD934539A77FE093C6B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhillipsRecruitment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3C7B7D782902321000BB1A7A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C7B7D842902321000BB1A7A /* ViewController.swift in Sources */,
+				3C7B7D9429025D5800BB1A7A /* ChooseViewController.swift in Sources */,
 				3C7B7D802902321000BB1A7A /* AppDelegate.swift in Sources */,
+				3C7B7D9A2902B50700BB1A7A /* Trade.swift in Sources */,
+				3C7B7D982902AE2400BB1A7A /* TradeCell.swift in Sources */,
+				3C7B7D9E2902BABF00BB1A7A /* TradeCollection.swift in Sources */,
+				3C7B7D9C2902BA1800BB1A7A /* ReusableLable.swift in Sources */,
 				3C7B7D822902321000BB1A7A /* SceneDelegate.swift in Sources */,
+				3C7B7D962902ACDA00BB1A7A /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +370,7 @@
 		};
 		3C7B7D912902321200BB1A7A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 986D558D81EACE67B1E1784C /* Pods-PhillipsRecruitment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +399,7 @@
 		};
 		3C7B7D922902321200BB1A7A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E72B5984C9B33B063BE71D2F /* Pods-PhillipsRecruitment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
